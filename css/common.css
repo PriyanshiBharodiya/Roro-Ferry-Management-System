@@ -1,0 +1,52 @@
+:root{
+    --teel:#2ec1ac;
+    --teel_hover:#279e8c;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+ 
+ /* css for hide number field arrow */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+
+
+ /* style for button background in availablity-form */
+ .custom-bg {
+     background-color:var(--teel);
+     border: 1px solid var(--teel);
+ }
+
+ .custom-bg:hover {
+     background-color:var(--teel_hover);
+     border: 1px solid var(--teel_hover);
+ }
+
+ .h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+

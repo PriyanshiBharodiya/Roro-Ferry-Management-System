@@ -1,0 +1,97 @@
+:root {
+    --primary: #007bff;
+    --hover-color: #6c757d;
+    --soft-gray: #f4f4f4;
+    --border-gray: #ddd;
+    --text-color: #333;
+}
+
+body {
+    background-color: var(--soft-gray);
+    color: var(--text-color);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Route Links Styling */
+.route-links {
+    padding: 30px 0 10px;
+    text-align: center;
+}
+
+.route-links a {
+    margin: 0 15px;
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+.route-links a:hover {
+    background-color: var(--hover-color);
+    color: white;
+}
+
+/* Schedule Section */
+.schedule-section {
+    padding: 30px 0;
+}
+
+.schedule-section h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+    background: white;
+}
+
+table.table {
+    margin-bottom: 0;
+}
+
+table thead {
+    background-color: #e9ecef;
+}
+
+table th,
+table td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    padding: 12px;
+}
+
+/* Action Button (Package Link) */
+.btn-package {
+    padding: 5px 10px;
+    /* Padding around the button */
+    font-size: 14px;
+    /* Font size for the button */
+    background: none;
+    /* No background color */
+    border: 1px solid var(--primary);
+    /* Border with the primary color */
+    border-radius: 4px;
+    /* Rounded corners */
+    color: var(--primary);
+    /* Text color as primary color */
+    transition: 0.3s;
+    /* Smooth transition for hover effect */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.btn-package:hover {
+    background-color: var(--primary);
+    /* Change background on hover */
+    color: white;
+    /* Change text color on hover */
+}
